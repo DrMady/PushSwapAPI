@@ -18,7 +18,7 @@ def start():
             SwapMain.start_theo(list(map(int, input_list.split(','))))
             return json_operation()
         else:
-            return 'The credentials ain\'t right my nigga'
+            return 'The credentials ain\'t right'
 
 
 def json_operation():
